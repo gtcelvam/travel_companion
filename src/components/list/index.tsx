@@ -36,7 +36,7 @@ const List = () => {
       </S.ListFormControl>
       {/* Select Type Ends Here*/}
 
-      {/* Select Rating */}
+      {/* Select Rating. */}
       <S.ListFormControl>
         <S.ListFormInputLabel>Rating</S.ListFormInputLabel>
         <S.ListFormSelect value={rating} onChange={handleRatingChange}>
